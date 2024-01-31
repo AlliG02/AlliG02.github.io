@@ -32,11 +32,32 @@ a, .btn {
     transition: all 300ms ease;
 }
 
+.btn-container {
+    display: inline-block; /* Set the display property to inline-block */
+    margin-right: 10px; /* Add some spacing between buttons (adjust as needed) */
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black; /* Change to a darker shade of your primary color */
+    color: #fff;
+}
+
 img {
     display: block;
     margin: auto;
     max-width: 30%;
     max-height: 30%;
+    margin-top: 3rem;
 }
 
 .section__text {
@@ -45,6 +66,7 @@ img {
 
 .section__text__p1,
 .title {
+    cursor: default;
     margin: 0; /* Remove default margin to ensure better centering */
 }
 
