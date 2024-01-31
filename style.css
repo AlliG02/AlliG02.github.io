@@ -113,3 +113,20 @@ a, .btn {
 .project h3 {
     margin-bottom: 10px;
 }
+
+.pending {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Footer section */
+
+footer {
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.footer__links {
+    margin-top: 20px;
+}
