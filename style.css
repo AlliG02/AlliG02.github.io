@@ -43,7 +43,7 @@ img {
 .section__text__p1,
 .title {
     cursor: default;
-    margin: 0; /* Remove default margin to ensure better centering */
+    margin: 0;
 }
 
 .title {
@@ -62,8 +62,8 @@ a, .btn {
 /* Button stuff */
 
 .btn-container {
-    display: inline-block; /* Set the display property to inline-block */
-    margin-right: 10px; /* Add some spacing between buttons (adjust as needed) */
+    display: inline-block; 
+    margin-right: 10px; 
 }
 
 .btn {
@@ -77,7 +77,7 @@ a, .btn {
 }
 
 .btn:hover {
-    background-color: black; /* Change to a darker shade of your primary color */
+    background-color: black; 
     color: #fff;
 }
 
@@ -85,7 +85,7 @@ a, .btn {
 
 .projects-section {
     text-align: center;
-    margin-top: 50px; /* Adjust spacing between links and projects */
+    margin-top: 50px; 
     margin-bottom: 50px;
 }
 
@@ -101,13 +101,13 @@ a, .btn {
 
 .project1 .project-image1 img {
     max-width: 30%;
-    margin-top: 20px; /* Adjust the margin to your preference */
+    margin-top: 20px; 
 
 }
 
 .project2 .project-image2 img {
     max-width: 30%;
-    margin-top: 20px; /* Adjust the margin to your preference */
+    margin-top: 20px; 
 }
 
 .project h3 {
