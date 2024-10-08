@@ -1,3 +1,3 @@
-* My website 
+# My website
 
 - Built using **HTML** and **CSS**
